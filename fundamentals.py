@@ -28,8 +28,8 @@ boolean = False
 array_of_strings = ['one','two','three']
 array_of_numbers = [1,2,3]
 
-for i in range(1):
-    print(array_of_strings)
+for string in array_of_strings:
+    print(string)
 
-    for num in array_of_numbers:
-        print('look at this number', num)
+for num in array_of_numbers:
+    print('look at this number', num)
