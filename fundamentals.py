@@ -1,6 +1,6 @@
-num = -5
-string = 'im a string'
-boolean = False
+# num = -5
+# string = 'im a string'
+# boolean = False
 
 # print(num)
 # print(string)
@@ -25,11 +25,27 @@ boolean = False
 #     print("i don't know")
 
 
-array_of_strings = ['one','two','three']
-array_of_numbers = [1,2,3]
+# array_of_strings = ['one','two','three']
+# array_of_numbers = [1,2,3]
 
-for string in array_of_strings:
-    print(string)
+# for string in array_of_strings:
+#     print(string)
 
-for num in array_of_numbers:
-    print('look at this number', num)
+# for num in array_of_numbers:
+#     print('look at this number', num)
+
+
+
+def static_greeting():
+    print('hello my name is tyler')
+
+
+static_greeting()
+
+
+def dynamic_greeting(arg1):
+    print('hello', arg1)
+
+dynamic_greeting('user')
+dynamic_greeting('best user')
+dynamic_greeting('best')
