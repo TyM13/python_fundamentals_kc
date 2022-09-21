@@ -36,16 +36,31 @@
 
 
 
-def static_greeting():
-    print('hello my name is tyler')
+# def static_greeting():
+#     print('hello my name is tyler')
 
 
-static_greeting()
+# static_greeting()
 
 
-def dynamic_greeting(arg1):
-    print('hello', arg1)
+# def dynamic_greeting(arg1):
+#     print('hello', arg1)
 
-dynamic_greeting('user')
-dynamic_greeting('best user')
-dynamic_greeting('best')
+# dynamic_greeting('user')
+# dynamic_greeting('best user')
+# dynamic_greeting('best')
+
+
+
+
+def find_treasure(string):
+    for string in array_strings:    
+        if(string == 'treasure'):
+            print('found treasure')
+            return True
+    print('no treasure')
+    return False
+           
+
+array_strings = ['treasures','treasures','three'] 
+find_treasure(array_strings)
